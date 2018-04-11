@@ -1,0 +1,116 @@
+body
+{
+	color: #FFFFFF;
+	background-color: #771953;
+	font-family: "ubuntu_monoregular"
+}
+
+#console
+{
+	margin: 2px;
+	
+}
+
+#header
+{
+	color: #000000;
+	background-color: #FFFFFF;
+
+	padding: 0px 10px;
+    	/*font-size: 0.37vw;*/
+
+}
+
+#infos
+{
+	margin: 0px 10px;
+}
+
+#infos .mainLink
+{
+	font-weight: bold;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	color: #FFFFFF;
+}
+
+.item a
+{
+	font-weight: bold;
+}
+
+li
+{
+	clear: both;
+}
+.user
+{
+/*	background-color: blue;*/
+	font-family: 'ubuntu_monobold'
+	
+}
+
+.path
+{
+	color: cyan;
+	font-weight: bold;
+}
+
+.prompt
+{
+	font-weight: bold;
+}
+
+.item
+{
+	width: 200px;
+	float: left;
+}
+
+.desc
+{
+	width: 80%;
+	float: right;
+}
+
+.cmd
+{
+	clear: both;
+}
+
+.note
+{
+	font-size: small;
+}
+
+.item:hover
+{
+	background-color: #772953;
+}
+
+.item:hover ~ .desc
+{
+	background-color: #772953;
+}
+
+#cursor
+{
+	animation-name: blink;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes blink
+{
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
